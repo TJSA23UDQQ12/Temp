@@ -107,3 +107,9 @@ EtriBERT 폴더 안에 있는 run_squad_ETRI.py 실행시 train_file을 학습�
 한국어만을 사용해 학습한 뒤 형태소 분석기를 사용한 Etri의 KorBERT가 Multilingual BERT에 비해 전체적으로 높은 성능을 보였다.
 
 ![](./image/experiment_result.png)
+
+## 5. Award
+
+논문 이름 : ![기계독해를 이용한 판례 내 주요 정보 추출 방법](https://www.cseric.or.kr/literature/ser_view.php?searchCate=literature&SnxGubun=INME&mode=total&SnxGubun=INME&gu=INME000F9&cmd=qryview&SnxIndxNum=214256&rownum=1&f1=MN&q1=Junho%20Won)
+
+![](./award/award.jpg)
