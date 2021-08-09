@@ -112,4 +112,4 @@ EtriBERT 폴더 안에 있는 run_squad_ETRI.py 실행시 train_file을 학습�
 
 논문 이름 : [기계독해를 이용한 판례 내 주요 정보 추출 방법](https://www.cseric.or.kr/literature/ser_view.php?searchCate=literature&SnxGubun=INME&mode=total&SnxGubun=INME&gu=INME000F9&cmd=qryview&SnxIndxNum=214256&rownum=1&f1=MN&q1=Junho%20Won)
 
-<img src="./award/award.jpg" width="30" height="30">
+<img src="./award/award.jpg" width="300" height="300">
