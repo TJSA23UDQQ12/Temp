@@ -43,14 +43,14 @@ KorCL 데이터 셋을 구축하기 위해 법률정보통합검색 사이트인
 
 ## How to Use
 
-### Crawler
+### - Crawler
 `python3 crawler/run_crawler.py`를 통해 [리걸서치 사이트](https://legalsearch.kr/)에서 판례 데이터를 크롤링할 수 있다.
 
 현재 코드는 리걸서치에서 수집하고자 하는 키워드를 검색하였을 때, 검색되는 판례들만을 크롤링하도록 되어 있다. **만약, 다른 유형의 판례들도 수집하고 싶다면 main 함수의 `keywords` 리스트에 검색할 키워드를 입력하여 코드를 실행하면 된다.**
 
 <br/>
 
-### Model
+### - Model
 
 ### 1. preprocess data
 
