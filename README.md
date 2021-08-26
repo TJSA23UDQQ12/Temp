@@ -11,14 +11,6 @@
 판례 내에 있는 "범죄 사실"이라는 사건의 경위를 담고 있는 단락을 **context**로 하고,
 추출하고자 하는 핵심 정보를 **question과 answer**을 통해 태깅했다.
 
------
-
-<p align="center">
-  <img src="./image/dataEx.PNG" alt="text" width="number" />
-</p>
-
-----
-
 
 Etri의 KorBERT와 구글의 Multilingual BERT를 사용하여 성능을 비교해봤고,<br/>
 결과적으로 형태소 분석을 수행한 뒤 KorBERT를 통해 학습시키는 방법이 대부분의 상황에서 좋은 성능을 냈다.
@@ -32,6 +24,22 @@ Etri의 KorBERT와 구글의 Multilingual BERT를 사용하여 성능을 비교�
 * selenium
 * xlrd
 * xlsxwriter
+
+
+
+## Dataset
+
+
+<p align="center">
+  <img src="./image/dataEx.PNG" alt="text" width="number" />
+</p>
+
+----
+
+
+KorCL 데이터 셋을 구축하기 위해 법률정보통합검색 사이트인‘리걸서치’[9]에서 성범죄 관련 판례 677건, 살인 관련 판례 46건, 폭행 관련 판례 278건으로 총 1,001건을 수집하였다. 
+1,001건의 판례에 대한 질문으로는 WHO에 대한 질문 1,001개, WHEN에 대한 질문 975개, WHERE에 대한 질문 908개, WHAT에 대한 질문 1,001개로 총 3,885개의 질의응답쌍을 구축하였다
+
 
 ## How to Use
 
@@ -110,7 +118,7 @@ EtriBERT를 사용하기 위해서는 Etri에서 제공하는 형태소 분석 A
 * 모든 데이터가 들어있는 law.json 파일을 불러와서 API호출 후 tokenizing.json 파일을 생성
 
 
-### 3-2. EtriBERT를 실행
+#### 3-2. EtriBERT를 실행
 
 ```
 python3 run_squad_ETRI.py 
