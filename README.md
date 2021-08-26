@@ -8,7 +8,7 @@
 * "어떤 범죄를 저질렀는지"
 
 <p align="center">
-  ![](./image/dataEx.PNG)
+  <img src="./image/dataEx.PNG" alt="text" width="number" />
 </p>
 
 정보를 추출하기 위해 기계독해 방식으로 문제에 접근하였고, 학습 데이터셋을 SQuAD 형식에 맞춰 태깅하였다.<br/>
